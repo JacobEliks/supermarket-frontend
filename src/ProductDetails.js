@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import { NavLink, Routes, Route, useParams, Outlet, Link } from "react-router-dom";
+import { NavLink, useParams, Outlet, Link } from "react-router-dom";
 import axios from "axios";
 import Button from "./Button.js";
-import Loader from "./Loader.js";
+
 
 export default function ProductDetails(props) {
   const [product, setProduct] = useState({});
