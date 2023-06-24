@@ -8,7 +8,7 @@ export default function Products(props) {
   
   
   useEffect(() => {
-    axios.get('http://localhost:3000/api/products')
+    axios.get('https://ancient-fjord-25583-f22bd3bad56f.herokuapp.com/api/products')
       .then(response => setProducts(response.data))
       .catch(error => console.error(error));
   }, []);
