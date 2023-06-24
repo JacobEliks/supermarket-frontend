@@ -12,7 +12,7 @@ export default function ProductDetails(props) {
     axios.get(`http://localhost:3000/api/products/${params.id}`)
     .then(response => setProduct(response.data))
     .catch(error => console.error(error));
-  });
+  },[params.id]);
 
   return (
     <div className="product-details-layout">
