@@ -9,7 +9,7 @@ export default function ProductDetails(props) {
   const params = useParams();
 
   useEffect(() => {
-    axios.get(`http://localhost:3000/api/products/${params.id}`)
+    axios.get(`https://ancient-fjord-25583-f22bd3bad56f.herokuapp.com/api/products/${params.id}`)
     .then(response => setProduct(response.data))
     .catch(error => console.error(error));
   },[params.id]);
