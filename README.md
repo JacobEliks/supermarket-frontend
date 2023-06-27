@@ -45,7 +45,7 @@ To run the application locally on your machine, follow these steps:
 
 ## Deployment
 
-The frontend app is already deployed and accessible online. You can visit the live demo by following this link: https://jacobs-supermarket.netlify.app/products
+The frontend app is already deployed and accessible online. You can visit the live demo by following this link: https://jacobs-supermarket.netlify.app
 
 ## Contributing
 
